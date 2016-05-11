@@ -2,48 +2,55 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="styles.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
 	<meta charset="UTF-8">
 	<title>Document</title>
 </head>
 <body>
 	<h1 class="header">Shopping List</h1>
-	<ul class="list">
+	<ul class="list" id="list1">
 		
 		<li class="list-item">
+			<div class="circle">&nbsp;</div>
 			<div class="title">Tomatoes</div>
 			<div class="delete">&nbsp;</div>
 			<div class="movebutton">&nbsp;</div>
 		</li>
 		
 		<li class="list-item">
+			<div class="circle">&nbsp;</div>
 			<div class="title">Grapes</div>
 			<div class="delete">&nbsp;</div>
 			<div class="movebutton">&nbsp;</div>
 		</li>
 		
 		<li class="list-item">
+			<div class="circle">&nbsp;</div>
 			<div class="title">Bottled Water</div>
 			<div class="delete">&nbsp;</div>
 			<div class="movebutton">&nbsp;</div>
 		</li>
 
 		<li class="list-item">
+			<div class="circle">&nbsp;</div>
 			<div class="title">Raisins</div>
 			<div class="delete">&nbsp;</div>
 			<div class="movebutton">&nbsp;</div>
 		</li>
 
 		<li class="list-item">
+			<div class="circle">&nbsp;</div>
 			<div class="title">Orange Juice</div>
 			<div class="delete">&nbsp;</div>
 			<div class="movebutton">&nbsp;</div>
 		</li>		
-		
-		<li class="list-item">
-			<div class="title">Write Here</div>
-			<div class="delete">&nbsp;</div>
-			<div class="movebutton">&nbsp;</div>
-		</li>
 	</ul>
+
+	<div class="write">
+		<input id="text" type="text"></input>
+		<button id="enter">Add to list</button>
+	</div>
+
 </body>
 </html>

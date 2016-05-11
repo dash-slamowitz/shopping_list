@@ -2,11 +2,23 @@ body {
 	font-family: sans-serif;
 }
 
+
 .list-item {
+	list-style: none;
+}
+
+
+.circle {
+	background: url("images/circle.png") no-repeat left; 
+	padding: 2em;
+	background-size: 2em;
+	display: inline-block;
+}
+
+.check {
 	background: url("images/check.png") no-repeat left; 
 	padding: 2em;
 	background-size: 2em;
-	list-style: none;
 }
 
 .movebutton {
